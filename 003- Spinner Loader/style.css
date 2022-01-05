@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color:indigo;
+}
+
+body::before{
+    content: "Spinner  Loader";
+    position: absolute;
+    top: 20vh;
+    font:  bold 3rem arial;
+    color: #fff;
+}
+
+body::after{
+    content: "João Jamba";
+    position: absolute;
+    top: 95vh;
+    font: italic 1rem arial;
+    color: #fff;
+}
